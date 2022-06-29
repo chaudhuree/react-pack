@@ -1,24 +1,60 @@
-import logo from './logo.svg';
+import { Table } from 'react-bootstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Pack</h1>
+      <p> -by chaudhuree</p>
+      <br/>
+      <br/>
+      <br/>
+      <hr />
+      <Table striped bordered hover variant="dark">
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Package name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>redux</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>react-redux</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>axios</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>graphql</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>apollo client</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>bootstrap</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>react-router-dom</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>styled component</td>
+          </tr>
+        </tbody>
+      </Table>
+
     </div>
+
   );
 }
 
