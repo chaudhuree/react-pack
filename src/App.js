@@ -50,6 +50,18 @@ function App() {
             <td>8</td>
             <td>styled component</td>
           </tr>
+          <tr>
+            <td>9</td>
+            <td>redux toolkit</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>recoil</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>firebase - firebase tool</td>
+          </tr>
         </tbody>
       </Table>
 
